@@ -1,0 +1,33 @@
+.menuMobile {
+  display: flex;
+  justify-content: space-between;
+  // flex-wrap: wrap;
+  padding: 3.66rem 1.55rem 3.16rem;
+  font-size: 34px;
+  min-height: 812px;
+  ul {
+    display: inline-block;
+  }
+  .cb-ltCont {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .closeButton {
+    width: 23px;
+    align-self: flex-end;
+    // display: block;
+    // display: inline-block;
+    // position: relative;
+    // top: 0;
+  }
+  .langToggle {
+    writing-mode: vertical-rl;
+  }
+  li {
+    margin-bottom: 3.77rem;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
