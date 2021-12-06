@@ -1,0 +1,49 @@
+.menuMobile {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 3.66rem 1.55rem 3.16rem;
+  font-size: 34px;
+  min-height: 812px;
+}
+
+.menuMobile ul {
+  display: inline-block;
+}
+
+.menuMobile .cb-ltCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.menuMobile .closeButton {
+  width: 23px;
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+}
+
+.menuMobile .langToggle {
+  -webkit-writing-mode: vertical-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: vertical-rl;
+}
+
+.menuMobile li {
+  margin-bottom: 3.77rem;
+}
+
+.menuMobile li:last-child {
+  margin-bottom: 0;
+}
+/*# sourceMappingURL=menuMobile.css.map */

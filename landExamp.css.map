@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,UAAU,CAAC;EACT,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,WAAW,EAAE,MAAM;EACnB,aAAa,EAAE,MAAM;CACtB;;AACD,AAAA,cAAc,CAAC;EACb,aAAa,EAAE,MAAM;CACtB;;AACD,AAAA,eAAe,CAAC;EACd,eAAe,EAAE,SAAS;CAC3B",
+    "sources": [
+        "landExamp.scss"
+    ],
+    "names": [],
+    "file": "landExamp.css"
+}
