@@ -75,7 +75,7 @@ html {
   font-family: 'Khula';
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   body {
     width: auto;
   }
@@ -138,7 +138,7 @@ header {
   background-color: #fff;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   header {
     display: none;
   }
@@ -161,7 +161,7 @@ header {
   background: #fff;
 }
 
-@media (min-width: 376px) {
+@media (max-device-width: 480px) {
   .headerMobile {
     display: none;
   }
@@ -273,7 +273,7 @@ header {
   padding: 2.2rem 13.8rem 5.7rem;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .home {
     padding: 3.61rem 1.61rem 5rem;
   }
@@ -292,7 +292,7 @@ header {
           justify-content: space-between;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .info {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -326,7 +326,7 @@ header {
       align-self: center;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .info .lang-toggle {
     display: none;
   }
@@ -338,7 +338,7 @@ header {
   text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .aboutMe {
     padding: 4.5rem 1.66rem 4.22rem;
   }
@@ -374,7 +374,7 @@ header {
           align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .skills_content {
     padding: 4.61rem 4.11rem 5.5rem;
   }
@@ -398,7 +398,7 @@ header {
           justify-content: space-between;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .skills_content .skills_applications {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -425,7 +425,7 @@ header {
           align-items: center;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .portfolio {
     padding: 4.5rem 1.66rem 4.5rem;
   }
@@ -458,7 +458,7 @@ header {
   text-align: center;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 480px) {
   .contacts {
     padding: 4.55rem 1.66rem 5rem;
   }

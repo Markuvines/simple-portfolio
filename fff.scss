@@ -9,7 +9,7 @@ html {
 }
 body {
     // width: 1445px;
-    @media(max-width: 375px) {
+    @media(max-device-width: 480px) {
         width: auto;
     }
 }
@@ -60,7 +60,7 @@ header {
     top: 0;
     z-index: 1;
     background-color: #fff;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         display: none;
         }
 }
@@ -72,7 +72,7 @@ header {
     display: flex;
     justify-content: end;
     background: #fff;
-    @media (min-width: 376px) {
+    @media (max-device-width: 480px) {
         display: none;
     }
 }
@@ -152,7 +152,7 @@ header {
 }
 .home {
     padding: 2.2rem 13.8rem 5.7rem;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         padding: 3.61rem 1.61rem 5rem;
         }
 }
@@ -161,7 +161,7 @@ header {
     flex-direction: row;
     justify-content: space-between;
     // margin-bottom: 1.6rem;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         flex-direction: column;
         width: 154px;
         margin-bottom: 2.05rem;
@@ -180,7 +180,7 @@ header {
         writing-mode: vertical-rl;
         font-size: 0.8rem;
         align-self: center;
-        @media (max-width: 375px) {
+        @media (max-device-width: 480px) {
             display: none;
             }
     }   
@@ -190,7 +190,7 @@ header {
     // height: 12.1rem;
     background-color: #F6F6F6;
     text-align: center;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         padding: 4.5rem 1.66rem 4.22rem;
         }
     h2 {
@@ -218,7 +218,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         padding: 4.61rem 4.11rem 5.5rem;
         }
     h2 {
@@ -231,7 +231,7 @@ header {
         width: 100%;
         display: flex;
         justify-content: space-between;
-        @media (max-width: 375px) {
+        @media (max-device-width: 480px) {
             flex-direction: column;
             }
     }
@@ -244,7 +244,7 @@ header {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         padding: 4.5rem 1.66rem 4.5rem;
         }
     h2 {
@@ -263,7 +263,7 @@ header {
     flex-direction: column;
     align-items: center;
     text-align: center;
-    @media (max-width: 375px) {
+    @media (max-device-width: 480px) {
         padding: 4.55rem 1.66rem 5rem;
         }
     h2 {
