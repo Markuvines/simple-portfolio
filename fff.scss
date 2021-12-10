@@ -72,7 +72,7 @@ header {
     display: flex;
     justify-content: end;
     background: #fff;
-    @media (max-device-width: 480px) {
+    @media (min-device-width: 480px) {
         display: none;
     }
 }

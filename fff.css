@@ -161,7 +161,7 @@ header {
   background: #fff;
 }
 
-@media (max-device-width: 480px) {
+@media (min-device-width: 480px) {
   .headerMobile {
     display: none;
   }
