@@ -1,6 +1,6 @@
 console.log('ffffd');
 $(document).ready(function() {
-  if ($(window).width()<=375) {
+  if ($(window).width()<=420) {
     $('.owner').prop('src', './img/ownerMin.png');
     $('.aboutMe br').remove()
   }
