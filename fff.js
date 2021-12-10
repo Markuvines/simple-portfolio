@@ -1,4 +1,10 @@
 console.log('ffffd');
+$(document).ready(function() {
+  if ($(window).width()<=375) {
+    $('.owner').prop('src', './img/ownerMin.png');
+    $('.aboutMe br').remove()
+  }
+}); 
 function modalWindowToggle(){
   $('.menuMobile').toggleClass('active');
   $('.modalLayer').toggle();
@@ -9,10 +15,10 @@ $("li").on('click', function() {
   $(this).addClass("menuSection_active");
   // console.log('ffffd');
 });
-if ($(window).width()<=375) {
-  $('.owner').prop('src', './img/ownerMin.png');
-  $('.aboutMe br').remove()
-}
+// if ($(window).width()<=375) {
+//   $('.owner').prop('src', './img/ownerMin.png');
+//   $('.aboutMe br').remove()
+// }
 $('.menuButton').on('click', function() {
   // $('.menuMobile').toggleClass('active');
   // $('.modalLayer').toggle();
