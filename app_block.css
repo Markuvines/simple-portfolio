@@ -16,7 +16,7 @@
           justify-content: space-between;
 }
 
-@media (max-width: 375px) {
+@media (max-device-width: 420px) {
   .app {
     margin-bottom: 4.5rem;
   }
