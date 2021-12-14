@@ -293,8 +293,10 @@ header {
         color: #F6F6F6;
         p {
             margin: 0;
-            // line-height: 18px;
         }
+        @media (max-device-width: 480px) {
+            width: 100%;
+            }
     }
     .social {
         // width: 19rem;

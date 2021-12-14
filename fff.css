@@ -499,6 +499,12 @@ header {
   margin: 0;
 }
 
+@media (max-device-width: 480px) {
+  .contacts button {
+    width: 100%;
+  }
+}
+
 .contacts .social {
   width: 100%;
   display: -webkit-box;
