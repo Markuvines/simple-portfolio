@@ -231,6 +231,12 @@ header {
   -webkit-writing-mode: vertical-rl;
       -ms-writing-mode: tb-rl;
           writing-mode: vertical-rl;
+  color: black;
+  font-weight: bold;
+}
+
+.menuMobile .langToggle a {
+  color: #828282;
 }
 
 .menuMobile:hover {
@@ -325,6 +331,12 @@ header {
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  color: black;
+  font-weight: bold;
+}
+
+.info .lang-toggle a {
+  color: #828282;
 }
 
 @media (max-device-width: 480px) {
@@ -445,7 +457,7 @@ header {
 }
 
 .contacts {
-  padding: 6.3rem 30.5rem 6.83rem;
+  padding: 6.3rem 20.5rem 6.83rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
